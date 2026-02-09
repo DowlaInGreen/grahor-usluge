@@ -142,7 +142,7 @@ function HeroSection() {
 
             {/* Subtitle */}
             <p className="text-lg text-gray-600 mb-8 max-w-lg leading-relaxed">
-              Održavanje dvorišta, vrtova i voćnjaka. Rušenje i obrezivanje drveća.
+              Održavanje dvorišta, vrtova i voćnjaka. Rušenje i orezivanje drveća.
               Više od 20 godina iskustva u uređenju zelenih površina na području Zagreba.
             </p>
 
@@ -301,12 +301,12 @@ function ServicesSection() {
     {
       icon: <Scissors size={28} />,
       title: 'Održavanje dvorišta i vrtova',
-      description: 'Redovna košnja trave, obrezivanje grmlja i živica, čišćenje lišća i kompletno sezonsko održavanje vaših zelenih površina.',
+      description: 'Redovna košnja trave, orezivanje grmlja i živica, čišćenje lišća i kompletno sezonsko održavanje vaših zelenih površina.',
     },
     {
       icon: <TreePine size={28} />,
-      title: 'Rušenje i obrezivanje drveća',
-      description: 'Profesionalno i sigurno rušenje opasnih stabala, obrezivanje krošnji i sanacija nakon olujnih nepogoda.',
+      title: 'Rušenje i orezivanje drveća',
+      description: 'Profesionalno i sigurno rušenje opasnih stabala, orezivanje krošnji i sanacija nakon olujnih nepogoda.',
     },
     {
       icon: <Flower2 size={28} />,
@@ -362,7 +362,7 @@ function ProjectsSection() {
   const projects = [
     { title: 'Uređenje dvorišta', type: 'Kompletno održavanje', icon: <Home size={24} /> },
     { title: 'Rušenje stabla', type: 'Sigurno uklanjanje', icon: <Axe size={24} /> },
-    { title: 'Obrezivanje voćnjaka', type: 'Sezonska njega', icon: <Scissors size={24} /> },
+    { title: 'orezivanje voćnjaka', type: 'Sezonska njega', icon: <Scissors size={24} /> },
     { title: 'Čišćenje parcele', type: 'Priprema terena', icon: <Sprout size={24} /> },
   ];
 
@@ -496,7 +496,7 @@ function TipsHighlightSection() {
               <div className="space-y-3 mb-8">
                 {[
                   'Održavanje travnjaka i vrtova',
-                  'Obrezivanje drveća i voćaka',
+                  'orezivanje drveća i voćaka',
                   'Sezonski radovi i savjeti',
                   'Čišćenje i priprema terena',
                   'Zaštita bilja i gnojidba',
@@ -833,7 +833,7 @@ function Footer() {
                 'Održavanje dvorišta',
                 'Košnja trave',
                 'Rušenje drveća',
-                'Obrezivanje voćaka',
+                'orezivanje voćaka',
                 'Čišćenje parcela',
               ].map((service) => (
                 <li key={service}>
